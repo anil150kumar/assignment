@@ -1,0 +1,16 @@
+
+<div class="container container-fluid">
+  <div class="col col-mg-6">
+    <p>Name : {{data?.name}}</p>
+    <p>email : {{data?.email}}</p>
+    <img [src] ="data?.uploadImage" height="100px" width="100px">
+    <p>organization : {{data?.organization}}</p>
+    <p>Country : {{data?.selectCountry}}</p>
+    <p>state : {{data?.selectState}}</p>
+    <p>city : {{data?.selectCity}}</p>
+    
+  </div>
+  <div class="btn btn-primary">
+  <button type="button" (click)="onLogOut()"><a href="/">Logout</a></button>
+  </div>
+</div>

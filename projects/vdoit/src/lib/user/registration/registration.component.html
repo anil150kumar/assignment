@@ -1,0 +1,88 @@
+<div>  
+  <form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+
+     <div class="form-group col-md-6">
+    <label>
+      <input type="text" class="input" formControlName="name" placeholder="Name"[ngClass]="{ 'is-invalid': submitted && f.name.errors }" >
+      <div class="line-box">
+        <div class="line"></div>
+      </div>
+      <div *ngIf="submitted && f.name.errors" class="invalid-feedback">
+        <div *ngIf="f.name.errors.required">Name is required</div>
+        <div *ngIf = "f.name.errors.pattern">Name Should be in Alphabetical</div>
+    </div>
+    </label>
+    </div>
+    <label>
+        <div class="form-group col-md-6">
+            <input type="text" class="input" formControlName="email" placeholder="Email" [ngClass]="{ 'is-invalid': submitted && f.email.errors }">
+      
+            <div class="line-box">
+              <div class="line"></div>
+            </div>
+            <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+              <div *ngIf="f.email.errors.required">Name is required</div>
+              <div *ngIf = "f.email.errors.email">Enter Valid Email</div>
+          </div>
+          </div>
+         <div class="form-group col-md-6"> 
+      <input type="password" class="input" formControlName="password" placeholder="password" [ngClass]="{ 'is-invalid': submitted && f.password.errors }">
+      <div class="line-box">
+        <div class="line"></div>
+      </div>
+      <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+        <div *ngIf="f.password.errors.minlength">Password length should be minimum of 5</div>
+        
+    </div>
+  </div>
+    </label>
+  
+
+    <div class="form-group col-md-6">
+        <label for="inputEmail4">Organization Name</label>
+        <input type="text" class="form-control" formControlName="organization" id="inputEmail4" placeholder="Organization Name">
+      </div>
+      <div class="form-group col-md-6">
+        <label class="image-upload-container btn btn-bwm">
+          <span>Select Image</span>
+          <input formControlName = "uploadImage"
+                 type="file"
+                 accept="image/*"
+                 (change)="upload($event)">
+        </label>
+      </div>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" [style.width]="(uploadProgress | async) + '%'" [attr.aria-valuenow]="(uploadProgress | async)" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+    
+    <div class="form-group">
+      <label>Select Country</label>
+      <select class="form-control"formControlName="selectCountry"  (change)="onChangeCountry($event.target.value)">
+        <option *ngFor="let country of countryInfo; let i = index" value="{{i}}">{{country?.CountryName}}</option>
+      </select>  
+    </div>
+
+    <div class="form-group">
+        <label>Select State</label>
+        <select class="form-control" formControlName = "selectState" (change)="onChangeState($event.target.value)">
+         <!-- <option *ngIf="stateInfo == ''" value="-1">--Select State--</option> -->
+          <option *ngFor="let state of stateInfo; let j = index" value="{{j}}">{{state?.StateName}}</option>
+        </select>  
+    </div>
+
+    <div class="form-group">
+        <label>Select City</label>
+        <select formControlName="selectCity" class="form-control">
+          <!--  <option *ngIf="cityInfo == ''" value="-1">--Select CIty--</option> -->
+          <option *ngFor="let city of cityInfo; let k = index" value="{{k}}">{{city}}</option>
+        </select>  
+    </div>
+    <div class="form-group">
+      <button [disabled]="loading" class="btn btn-primary"><a routerLink="/login"></a>Register</button>
+  </div>
+
+  </form>
+  <div class="form-group">
+     <button [disabled]="loading" (click)="login()"class="btn btn-primary">Login here</button>
+  </div>
+</div>
