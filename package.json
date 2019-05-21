@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "node server.js",
+    "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -32,13 +32,14 @@
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
     "zone.js": "~0.8.26",
+    "@angular/cli": "~7.3.8",
+    "@angular/compiler-cli": "~7.2.0",
     "typescript": "~3.2.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.13.0",
     "@angular-devkit/build-ng-packagr": "~0.13.0",
-    "@angular/cli": "~7.3.8",
-    "@angular/compiler-cli": "~7.2.0",
+    
     "@angular/language-service": "~7.2.0",
     "@types/node": "~8.9.4",
     "@types/jasmine": "~2.8.8",
@@ -58,9 +59,6 @@
     "tslib": "^1.9.0",
     "tslint": "~5.11.0",
     "typescript": "~3.2.2"
-  },
-  "engines": {
-    "node": "11.6.0",
-    "npm": "6.9.0"
   }
+ 
 }
