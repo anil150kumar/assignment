@@ -1,0 +1,14 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+/*
+ * Public API Surface of vdoit
+ */
+export { RegistrationComponent } from './lib/user/registration/registration.component';
+export { LoginComponent } from './lib/user/login/login.component';
+export { AuthGuard } from './lib/user/auth-guard.service';
+export { firebaseConfig } from './lib/vdoit.module';
+export { HomeComponent } from './lib/user/home/home.component';
+export { VdoitModule } from './lib/vdoit.module';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL3Zkb2l0LyIsInNvdXJjZXMiOlsicHVibGljLWFwaS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7O0FBTUEsc0NBQWMsZ0RBQWdELENBQUE7QUFDOUQsK0JBQWMsa0NBQWtDLENBQUE7QUFDaEQsMEJBQWMsK0JBQStCLENBQUE7QUFDN0MsT0FBTyxFQUFDLGNBQWMsRUFBQyxNQUFNLG9CQUFvQixDQUFBO0FBQ2pELDhCQUFjLGdDQUFnQyxDQUFBO0FBQzlDLDRCQUFjLG9CQUFvQixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgZmlyZWJhc2VDb25maWcgfSBmcm9tICcuL2xpYi92ZG9pdC5tb2R1bGUnO1xuXG4vKlxuICogUHVibGljIEFQSSBTdXJmYWNlIG9mIHZkb2l0XG4gKi9cblxuZXhwb3J0ICogZnJvbSAnLi9saWIvdXNlci9yZWdpc3RyYXRpb24vcmVnaXN0cmF0aW9uLmNvbXBvbmVudCdcbmV4cG9ydCAqIGZyb20gJy4vbGliL3VzZXIvbG9naW4vbG9naW4uY29tcG9uZW50J1xuZXhwb3J0ICogZnJvbSAnLi9saWIvdXNlci9hdXRoLWd1YXJkLnNlcnZpY2UnXG5leHBvcnQge2ZpcmViYXNlQ29uZmlnfSBmcm9tICcuL2xpYi92ZG9pdC5tb2R1bGUnXG5leHBvcnQgKiBmcm9tICcuL2xpYi91c2VyL2hvbWUvaG9tZS5jb21wb25lbnQnXG5leHBvcnQgKiBmcm9tICcuL2xpYi92ZG9pdC5tb2R1bGUnO1xuIl19

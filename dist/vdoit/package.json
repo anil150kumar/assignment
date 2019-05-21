@@ -1,0 +1,21 @@
+{
+  "name": "vdoit",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^7.2.0",
+    "@angular/core": "^7.2.0"
+  },
+  "main": "bundles/vdoit.umd.js",
+  "module": "fesm5/vdoit.js",
+  "es2015": "fesm2015/vdoit.js",
+  "esm5": "esm5/vdoit.js",
+  "esm2015": "esm2015/vdoit.js",
+  "fesm5": "fesm5/vdoit.js",
+  "fesm2015": "fesm2015/vdoit.js",
+  "typings": "vdoit.d.ts",
+  "metadata": "vdoit.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}

@@ -1,0 +1,21 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+// This file can be replaced during build by using the `fileReplacements` array.
+// `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
+// The list of file replacements can be found in `angular.json`.
+/** @type {?} */
+export const environment = {
+    production: false,
+    firebase: {
+        apiKey: "AIzaSyCGPXlnA1hFVa1CeTSlOCwKEYsMypTTOSw",
+        authDomain: "vdoit-507fc.firebaseapp.com",
+        databaseURL: "https://vdoit-507fc.firebaseio.com",
+        projectId: "vdoit-507fc",
+        storageBucket: "vdoit-507fc.appspot.com",
+        messagingSenderId: "1049933201863",
+        appId: "1:1049933201863:web:618fb38251a368cf"
+    }
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZW52aXJvbm1lbnQuanMiLCJzb3VyY2VSb290Ijoibmc6Ly92ZG9pdC8iLCJzb3VyY2VzIjpbImxpYi9lbnZpcm9ubWVudC9lbnZpcm9ubWVudC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7OztBQUlBLE1BQU0sT0FBTyxXQUFXLEdBQUc7SUFDekIsVUFBVSxFQUFFLEtBQUs7SUFDakIsUUFBUSxFQUFHO1FBQ1QsTUFBTSxFQUFFLHlDQUF5QztRQUNqRCxVQUFVLEVBQUUsNkJBQTZCO1FBQ3pDLFdBQVcsRUFBRSxvQ0FBb0M7UUFDakQsU0FBUyxFQUFFLGFBQWE7UUFDeEIsYUFBYSxFQUFFLHlCQUF5QjtRQUN4QyxpQkFBaUIsRUFBRSxlQUFlO1FBQ2xDLEtBQUssRUFBRSxzQ0FBc0M7S0FDOUM7Q0FDRiIsInNvdXJjZXNDb250ZW50IjpbIi8vIFRoaXMgZmlsZSBjYW4gYmUgcmVwbGFjZWQgZHVyaW5nIGJ1aWxkIGJ5IHVzaW5nIHRoZSBgZmlsZVJlcGxhY2VtZW50c2AgYXJyYXkuXG4vLyBgbmcgYnVpbGQgLS1wcm9kYCByZXBsYWNlcyBgZW52aXJvbm1lbnQudHNgIHdpdGggYGVudmlyb25tZW50LnByb2QudHNgLlxuLy8gVGhlIGxpc3Qgb2YgZmlsZSByZXBsYWNlbWVudHMgY2FuIGJlIGZvdW5kIGluIGBhbmd1bGFyLmpzb25gLlxuXG5leHBvcnQgY29uc3QgZW52aXJvbm1lbnQgPSB7XG4gIHByb2R1Y3Rpb246IGZhbHNlLFxuICBmaXJlYmFzZSA6IHtcbiAgICBhcGlLZXk6IFwiQUl6YVN5Q0dQWGxuQTFoRlZhMUNlVFNsT0N3S0VZc015cFRUT1N3XCIsXG4gICAgYXV0aERvbWFpbjogXCJ2ZG9pdC01MDdmYy5maXJlYmFzZWFwcC5jb21cIixcbiAgICBkYXRhYmFzZVVSTDogXCJodHRwczovL3Zkb2l0LTUwN2ZjLmZpcmViYXNlaW8uY29tXCIsXG4gICAgcHJvamVjdElkOiBcInZkb2l0LTUwN2ZjXCIsXG4gICAgc3RvcmFnZUJ1Y2tldDogXCJ2ZG9pdC01MDdmYy5hcHBzcG90LmNvbVwiLFxuICAgIG1lc3NhZ2luZ1NlbmRlcklkOiBcIjEwNDk5MzMyMDE4NjNcIixcbiAgICBhcHBJZDogXCIxOjEwNDk5MzMyMDE4NjM6d2ViOjYxOGZiMzgyNTFhMzY4Y2ZcIlxuICB9XG59O1xuXG4vKlxuICogRm9yIGVhc2llciBkZWJ1Z2dpbmcgaW4gZGV2ZWxvcG1lbnQgbW9kZSwgeW91IGNhbiBpbXBvcnQgdGhlIGZvbGxvd2luZyBmaWxlXG4gKiB0byBpZ25vcmUgem9uZSByZWxhdGVkIGVycm9yIHN0YWNrIGZyYW1lcyBzdWNoIGFzIGB6b25lLnJ1bmAsIGB6b25lRGVsZWdhdGUuaW52b2tlVGFza2AuXG4gKlxuICogVGhpcyBpbXBvcnQgc2hvdWxkIGJlIGNvbW1lbnRlZCBvdXQgaW4gcHJvZHVjdGlvbiBtb2RlIGJlY2F1c2UgaXQgd2lsbCBoYXZlIGEgbmVnYXRpdmUgaW1wYWN0XG4gKiBvbiBwZXJmb3JtYW5jZSBpZiBhbiBlcnJvciBpcyB0aHJvd24uXG4gKi9cbi8vIGltcG9ydCAnem9uZS5qcy9kaXN0L3pvbmUtZXJyb3InOyAgLy8gSW5jbHVkZWQgd2l0aCBBbmd1bGFyIENMSS5cbiJdfQ==

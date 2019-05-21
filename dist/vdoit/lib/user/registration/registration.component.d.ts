@@ -1,0 +1,47 @@
+import { OnInit } from '@angular/core';
+import { FormBuilder, FormGroup } from '@angular/forms';
+import { AuthService } from '../auth.service';
+import { CountriesService } from '../update.service';
+import { Router } from '@angular/router';
+import { AngularFireStorage, AngularFireStorageReference, AngularFireUploadTask } from 'angularfire2/storage';
+import { Observable } from 'rxjs';
+import { AngularFirestore } from '@angular/fire/firestore';
+export declare class RegistrationComponent implements OnInit {
+    private afStorage;
+    private form;
+    private country;
+    private db;
+    private router;
+    private authService;
+    userForm: FormGroup;
+    loading: boolean;
+    submitted: boolean;
+    data: any;
+    stateInfo: any[];
+    countryInfo: any[];
+    cityInfo: any[];
+    ref: AngularFireStorageReference;
+    task: AngularFireUploadTask;
+    uploadProgress: Observable<number>;
+    uploadState: Observable<string>;
+    downloadURL: Observable<string>;
+    selectCountry: any;
+    selectCity: any;
+    selectState: any;
+    selectedCountry: any;
+    selectedState: any;
+    SelectedCity: any;
+    url: string;
+    image: any;
+    constructor(afStorage: AngularFireStorage, form: FormBuilder, country: CountriesService, db: AngularFirestore, router: Router, authService: AuthService);
+    ngOnInit(): void;
+    readonly f: {
+        [key: string]: import("@angular/forms").AbstractControl;
+    };
+    upload(event: any): void;
+    getCountries(): void;
+    onChangeCountry(countryValue: any): any[];
+    onChangeState(stateValue: any): any[];
+    login(): void;
+    onSubmit(): void;
+}
